@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_theme">#0AA9F1</color>
+    <color name="blue_theme_inactive">#CE73BFE1</color>
+    <color name="navbar_inactive">#BED4E6</color>
+    <color name="gray_border">#D8D4D4</color>
+    <color name="bg_Shade">#E6F8F8F8</color>
+    <color name="post_bg">#C8F7F7F8</color>
+    <color name="text_Color">#363434</color>
+    <color name="gray">#747679</color>
+    <color name="text_inactive">#F27CBDF3</color>
+    <color name="login_shadow">#6F53585C</color>
+    <color name="chat_bg">#7089b5</color>
+
+    // svg color
+    <color name="red">#D5271A</color>
+    <color name="green">#ED3FCF16</color>
+    <color name="yellow">#F8CA21</color>
+    //
+    <color name="progress_primary">@color/white</color>
+    <color name="progress_secondary">#8affffff</color>
+
+</resources>

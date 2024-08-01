@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/_5hsdp"
+    android:paddingStart="@dimen/_6hsdp"
+    >
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/_35hsdp"
+        android:layout_height="@dimen/_35hsdp"
+        android:padding="@dimen/_2hsdp"
+        android:src="@drawable/icon_emoji"
+        />
+    <TextView
+        android:id="@+id/iconName"
+        android:layout_width="@dimen/_48hsdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_9hsdp"
+        android:textSize="@dimen/_10font_ssp"
+        android:padding="@dimen/_2hsdp"
+        android:text="Emoji"
+        />
+
+</LinearLayout>
+
+</layout>

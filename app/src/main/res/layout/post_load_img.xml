@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/imagePostLayout"
+    android:layout_marginEnd="@dimen/_6hsdp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/_200hsdp"
+        android:layout_height="@dimen/_200hsdp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/login_bg_img"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="@dimen/_22hsdp"
+        android:layout_height="@dimen/_22hsdp"
+        android:scaleType="centerCrop"
+        android:tintMode="multiply"
+        app:tint="@color/bg_Shade"
+        app:layout_constraintTop_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="@id/image"
+        android:src="@drawable/baseline_cancel_24"
+        android:layout_marginEnd="@dimen/_5hsdp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

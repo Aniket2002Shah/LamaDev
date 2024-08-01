@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item1"
+        android:icon="@drawable/baseline_search_white__24"
+        android:iconTint="@color/white"
+        app:tint="@color/white"
+        app:showAsAction="always"
+        android:title="Search"/>
+
+
+<!--    <item android:id="@+id/item3"-->
+<!--        android:icon="@drawable/baseline_menu_vert_24"-->
+<!--        app:showAsAction="always"-->
+<!--        android:title="Menu"/>-->
+
+</menu>

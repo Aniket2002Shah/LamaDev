@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/_5hsdp"
+        android:paddingStart="@dimen/_5hsdp"
+        >
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/_35hsdp"
+            android:layout_height="@dimen/_35hsdp"
+            android:padding="@dimen/_1hsdp"
+            android:src="@drawable/baseline_info_24"
+            app:tint="@color/gray"
+            />
+        <EditText
+            android:layout_marginStart="@dimen/_10hsdp"
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_border_shape"
+            android:contentDescription="info desc"
+            android:textSize="@dimen/_16font_ssp"
+            android:padding="@dimen/_6hsdp"
+            />
+
+    </LinearLayout>
+
+</layout>
